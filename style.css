@@ -1,12 +1,32 @@
+/* GENERAL */
+
 body {
   max-width: 1000px;
   margin: auto;
 }
 
+/* HEADER */
+
 header {
   display: block;
   height: 120px;
+}
 
+header h1 {
+  font-family: arial;
+  font-size: 2em;
+  line-height: 70%;
+}
+
+header p {
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 30%;
+  font-size: 1.3em;
+}
+
+header aside {
+  text-align: center;
 }
 
 #grandtitre {
@@ -17,21 +37,23 @@ header {
 #contacttel {
   float: right;
   width: 40%;
+  line-height: 80px;
+  font-family: sans-serif;
+  font-size: 1.5em;
 }
+
+/* BARRE DE NAVIGATION */
 
 nav {
   border: 1px grey solid;
   border-radius: 3px 3px 3px 3px;
   position: relative;
-
-}
-
-nav ul li {
-  display:inline-block;
-  width: 15%;
-
 }
 
 nav ul {
+  display:flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
 
 }
