@@ -48,6 +48,7 @@ nav {
   border: 1px grey solid;
   border-radius: 3px 3px 3px 3px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -55,5 +56,30 @@ nav ul {
   list-style: none;
   justify-content: space-between;
   padding: 0 5% 0 5%;
+}
 
+/* BARRE DE RESERVATION RAPIDE */
+
+#resarapide {
+  border: 1px grey solid;
+  border-radius: 3px 3px 3px 3px;
+  position : relative;
+  margin-bottom: 20px;
+  height: 45px;
+  padding: 10px 20px 0 20px;
+  text-align: center;
+}
+
+#resarapide select {
+  border: 1px grey solid;
+  border-radius: 3px 3px 3px 3px;
+  height: 35px;
+}
+
+#resarapide input {
+  border: 1px green solid;
+  border-radius: 3px 3px 3px 3px;
+  height: 35px;
+  background-color: green;
+  width: 120px;
 }
