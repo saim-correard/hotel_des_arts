@@ -66,8 +66,10 @@ nav ul {
   position : relative;
   margin-bottom: 20px;
   height: 45px;
-  padding: 10px 20px 0 20px;
+  padding-top: 10px;
+  margin: 0 15% 0 15%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #resarapide select {
@@ -82,4 +84,38 @@ nav ul {
   height: 35px;
   background-color: green;
   width: 120px;
+}
+
+/* ARTICLE NEWS */
+
+.news {
+  widows: 100%;
+  border: 1px grey solid;
+  border-radius: 3px 3px 3px 3px;
+  padding: 1% 1% 1% 1%;
+}
+
+.news img {
+  width: 40%;
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+
+.news h3 {
+  margin-top: 0px;
+  width: 35%;
+  display: inline-flex;
+  background-color: blue;
+}
+
+.news p {
+  text-align: justify;
+}
+
+.news .date {
+  width: 22%;
+  font-style: italic;
+  text-align: right;
+  display: inline-flex;
+  background-color: yellow;
 }
