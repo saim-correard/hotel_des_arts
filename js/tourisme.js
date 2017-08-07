@@ -11,7 +11,7 @@ $(function(){
 		  	$(elt).find('a').attr('hidden',true);
 		  	var p = $(elt).find('p');
 		  	p.css('height', '300px');
-		  	p.css('overflow', 'hidden');
+		  	p.css('overflow', 'visible');
 		} else // Sinon on réduit l'article
 			hideFullArticle(elt);
 
