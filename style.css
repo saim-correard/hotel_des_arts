@@ -114,3 +114,35 @@ nav ul {
   align-items: center;
   padding:10px 0px;
 }
+
+/* PAGE #TOURISME */
+#tourisme .article {
+  height:300px;
+  margin:30px 0px;
+}
+
+#tourisme img {
+  float:left;
+  margin-right:30px;
+}
+
+#tourisme h3 {  
+  padding-top: 10px;
+}
+
+#tourisme p {
+  text-align: justify;  
+  overflow:hidden;
+  height:125px;
+}
+
+#tourisme .lien {
+  text-align: right;
+}
+
+#avantages {
+  display:flex;
+  width:95%;
+  margin:75px 2.5%;
+  justify-content: space-between;
+}
