@@ -83,3 +83,34 @@ nav ul {
   background-color: green;
   width: 120px;
 }
+
+/* PAGE #HOTEL */
+#hotel {
+  display flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hotel section {  
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleHotel{
+  background-image: url("images/article_hotel_bg.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
+  width:384px;
+  height:384px;
+  text-align: center;
+  margin: 2% 2%;
+  padding: 2% 5%;
+}
+
+#carousel {
+  width:100%;
+  justify-content: space-around;
+  display:flex;
+  align-items: center;
+  padding:10px 0px;
+}
