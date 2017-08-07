@@ -139,3 +139,10 @@ nav ul {
 #tourisme .lien {
   text-align: right;
 }
+
+#avantages {
+  display:flex;
+  width:95%;
+  margin:75px 2.5%;
+  justify-content: space-between;
+}

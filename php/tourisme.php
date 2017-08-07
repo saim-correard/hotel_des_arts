@@ -19,7 +19,15 @@
         </section>
 
         <section id="avantages">
-          
+            <a href="#">
+                <img src="../images/avantage.jpg" alt="avantage"/>
+            </a>
+            <a href="#">
+                <img src="../images/avantage.jpg" alt="avantage"/>
+            </a>
+            <a href="#">
+                <img src="../images/avantage.jpg" alt="avantage"/>
+            </a>
         </section>
 
         <section id="tourisme">
