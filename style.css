@@ -149,8 +149,6 @@ nav ul {
 
 /* PAGE #CHAMBRES */
 .chambre {
-  background-image: url("images/chambre_1.jpg");
-  background-repeat:no-repeat;
   width:900px;
   height:250px;
   margin:auto;
@@ -159,6 +157,9 @@ nav ul {
 }
 
 .chambreDesc {
+  position:relative;
+  top:-250px;
+  right:5px;
   background-color: white;
   border:2px solid black;
   width : 35%;

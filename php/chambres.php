@@ -14,12 +14,14 @@
         <?php
             include("bddConnexion.php");
 
-            $query = $bdd->query('SELECT nom,description FROM chambres');
+            $query = $bdd->query('SELECT nom,description,image FROM chambres');
 
             while($data = $query->fetch()) 
             {
             ?>
+            <!--On récupère toutes les chambres en bases pour les afficher-->
                 <div class="chambre">
+                    <img src=<?php echo '"../images/chambres/'.htmlspecialchars($data['image']).'"'?> alt="image de l'hôtel"/>
                     <div class="chambreDesc">
                         <h3><?php echo htmlspecialchars($data['nom'])?></h3>
                         <p><?php echo nl2br(htmlspecialchars($data['description']))?></p>
@@ -61,6 +63,7 @@
             }
             $query->closeCursor();
         ?>
+        <script src="../js/chambres.js"></script>
         
     </body>
 </html>
