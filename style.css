@@ -146,3 +146,47 @@ nav ul {
   margin:75px 2.5%;
   justify-content: space-between;
 }
+
+/* PAGE #CHAMBRES */
+.chambre {
+  width:900px;
+  height:250px;
+  margin:auto;
+  margin-bottom: 2%;
+  border:2px solid black;
+}
+
+.chambreDesc {
+  position:relative;
+  top:-250px;
+  right:5px;
+  background-color: white;
+  border:2px solid black;
+  width : 35%;
+  height : 90%;
+  margin : 1% 5% 0% 60%;
+  padding: 0% 2%;
+}
+
+#resaRapideChambre {
+  padding: 5px 10px 5px 10px;
+  position:relative;
+  bottom:10px;
+  display:flex;
+  justify-content: space-between;
+}
+
+#resaRapideChambre select {
+  border: 1px grey solid;
+  border-radius: 3px 3px 3px 3px;
+  height: 35px;
+  width:60px;
+}
+
+#resaRapideChambre input {
+  border: 1px green solid;
+  border-radius: 3px 3px 3px 3px;
+  height: 35px;
+  background-color: green;
+  width: 80px;
+}

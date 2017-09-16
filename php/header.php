@@ -9,16 +9,16 @@
 </header>
 <nav>
   <ul>
-    <li><a href="#">Accueil</a></li>
+    <li><a href="/hotel_des_arts/php/home.php">Accueil</a></li>
 			<li> | </li>
-    <li><a href="#">Hôtel</a></li>
+    <li><a href="/hotel_des_arts/php/hotel.php">Hôtel</a></li>
 			<li> | </li>
-    <li><a href="#">Chambres</a></li>
+    <li><a href="/hotel_des_arts/php/chambres.php">Chambres</a></li>
 			<li> | </li>
-    <li><a href="#">Tarifs</a></li>
+    <li><a href="/hotel_des_arts/php/tarifs.php">Tarifs</a></li>
 			<li> | </li>
-    <li><a href="#">Tourisme</a></li>
+    <li><a href="/hotel_des_arts/php/tourisme.php">Tourisme</a></li>
 			<li> | </li>
-    <li><a href="#">Accès / Contact</a></li>
+    <li><a href="/hotel_des_arts/php/contact.php">Accès / Contact</a></li>
   </ul>
 </nav>
