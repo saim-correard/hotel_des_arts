@@ -7,23 +7,31 @@ body {
 
 /* HEADER */
 
-header {
-  display: block;
-  height: 120px;
-}
-
 header h1 {
   font-family: arial;
   font-size: 2em;
-  line-height: 70%;
+  /*line-height: 70%;*/
 }
 
 header p {
   font-weight: lighter;
   font-style: italic;
-  line-height: 30%;
+  /*line-height: 30%;*/
   font-size: 1.3em;
 }
+
+#contacttel {
+  /*line-height: 80px;*/
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+/*header {
+  display: block;
+  height: 120px;
+}
+
+
 
 header aside {
   text-align: center;
@@ -32,19 +40,26 @@ header aside {
 #grandtitre {
   float: left;
   width: 60%;
-}
+}*/
 
-#contacttel {
-  float: right;
-  width: 40%;
-  line-height: 80px;
-  font-family: sans-serif;
-  font-size: 1.5em;
-}
+
 
 /* BARRE DE NAVIGATION */
 
-nav {
+body nav 
+{
+   background-color: #e3f2fd;"
+
+}
+
+@media (min-width: 768px) {
+  body nav ul
+  {
+    width:100%;
+  }
+}
+
+/*nav {
   border: 1px grey solid;
   border-radius: 3px 3px 3px 3px;
   position: relative;
@@ -56,7 +71,7 @@ nav ul {
   list-style: none;
   justify-content: space-between;
   padding: 0 5% 0 5%;
-}
+}*/
 
 /* BARRE DE RESERVATION RAPIDE */
 
@@ -189,4 +204,26 @@ nav ul {
   height: 35px;
   background-color: green;
   width: 80px;
+}
+
+/* HOME */
+.div1
+{
+  background-color: red;
+  height:100px;
+}
+.div2
+{
+  background-color: blue;
+  height:100px;
+}
+.div3
+{
+  background-color: green;
+  height:100px;
+}
+.div4
+{
+  background-color: pink;
+  height:100px;
 }
