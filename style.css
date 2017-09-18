@@ -5,6 +5,25 @@ body {
   margin: auto;
 }
 
+/* putain ça ne marche pas h3 {
+  padding-top: 200px;
+  margin-bottom: 20px;
+}*/
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 /* HEADER */
 
 header {
@@ -91,7 +110,7 @@ nav ul {
   justify-content: space-between;
 }
 
-#hotel section {  
+#hotel section {
   display: flex;
   justify-content: space-between;
 }
@@ -126,12 +145,12 @@ nav ul {
   margin-right:30px;
 }
 
-#tourisme h3 {  
+#tourisme h3 {
   padding-top: 10px;
 }
 
 #tourisme p {
-  text-align: justify;  
+  text-align: justify;
   overflow:hidden;
   height:125px;
 }
