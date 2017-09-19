@@ -5,6 +5,11 @@ body {
   margin: auto;
 }
 
+footer {
+  margin-top: 20px;
+  background-color: #000000;
+}
+
 /* putain ça ne marche pas h3 {
   padding-top: 200px;
   margin-bottom: 20px;
