@@ -1,6 +1,6 @@
 <footer>
 
-		<div class="row col-12">
+		<div class="row">
 			<ul class="list-group col-4">
 			  <li class="list-group-item disabled">Nos Partenaires :</li>
 			  <li class="list-group-item">Dapibus ac facilisis in</li>
