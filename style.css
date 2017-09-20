@@ -78,25 +78,10 @@ nav ul {
 #resarapide {
   border: 1px grey solid;
   border-radius: 3px 3px 3px 3px;
-  position : relative;
   margin-bottom: 20px;
-  height: 45px;
-  padding: 10px 20px 0 20px;
+  height: 50px;
+  padding: 5px 20px 10px 20px;
   text-align: center;
-}
-
-#resarapide select {
-  border: 1px grey solid;
-  border-radius: 3px 3px 3px 3px;
-  height: 35px;
-}
-
-#resarapide input {
-  border: 1px green solid;
-  border-radius: 3px 3px 3px 3px;
-  height: 35px;
-  background-color: green;
-  width: 120px;
 }
 
 /* PAGE #HOTEL */
@@ -215,7 +200,7 @@ nav ul {
 
 .newsDesc
 {
-  height:333px;
+  height:315px;
   overflow: hidden;
 }
 
@@ -246,6 +231,11 @@ nav ul {
 {
   color: #000;
   background-color: #000;
+}
+
+#carouselHome
+{
+  margin-bottom: 25px;
 }
 
 

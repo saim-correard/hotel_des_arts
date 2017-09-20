@@ -12,8 +12,7 @@
 
       <?php include("header.php"); ?>
 
-
-      <section id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <section id="carouselHome" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="../images/hotel_1.jpg" alt="First slide">
@@ -27,8 +26,10 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="../images/hotel_4.jpg" alt="Fourth slide">
           </div>
-        </div>
+        </div>        
       </section>
+
+      <?php include("resarapide.php");?>
 
       <section id="news">
         <h2>News</h2>
@@ -46,7 +47,8 @@
             <img src=<?php echo '"../images/news/'.htmlspecialchars($data['image']).'"'?> alt="image de l'hôtel"/>
             <div class="newsDesc">
               <h3><?php echo htmlspecialchars($data['titre'])?></h3>
-              <p><?php echo nl2br(htmlspecialchars($data['texte']))?></p>
+              <p><?php echo nl2br(htmlspecialchars($data['texte']))?>
+              </p>
             </div>
           </div>  
         <?php
